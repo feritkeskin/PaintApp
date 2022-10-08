@@ -20,7 +20,7 @@ class PaintView : View {
         var pathList = ArrayList<Path>()
         var colorList = ArrayList<Int>()
         //Boya Fırçası
-        var currentBrush = Color.BLACK;
+        var currentBrush = Color.WHITE;
     }
 
     constructor(context: Context) : this(context, null){
