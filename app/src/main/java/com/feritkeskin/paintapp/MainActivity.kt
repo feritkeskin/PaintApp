@@ -13,7 +13,7 @@ import com.feritkeskin.paintapp.PaintView.Companion.pathList
 
 class MainActivity : AppCompatActivity() {
 
-    companion object{
+    companion object {
         var path = Path()
         var paintBrush = Paint()
     }
@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //App actionbar hiding
         supportActionBar?.hide()
 
         val blueBtn = findViewById<ImageButton>(R.id.blueColor)
@@ -63,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun currentColor(color : Int) {
+    private fun currentColor(color: Int) {
         currentBrush = color
         path = Path()
     }
