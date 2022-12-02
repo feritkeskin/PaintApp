@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportActionBar?.hide()
-
         val blueBtn = findViewById<ImageButton>(R.id.blueColor)
         val redBtn = findViewById<ImageButton>(R.id.redColor)
         val yellowBtn = findViewById<ImageButton>(R.id.yellowColor)
